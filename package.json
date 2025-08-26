@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ankitkumar-dewangan.github.io/my-portfolio",
+  "homepage": "",
 
   "dependencies": {
     "@ant-design/icons": "^6.0.0",
