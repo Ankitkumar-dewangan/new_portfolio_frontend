@@ -55,7 +55,7 @@ const Contact = ({ animateKey }) => {
   const onFinish = async (values) => {
     setIsSubmitting(true);
     try {
-      const response = await fetch("https://newportfoliobackend-5mi4.onrender.com/contact/", {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/contact/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
